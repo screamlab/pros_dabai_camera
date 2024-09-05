@@ -9,7 +9,12 @@ The Docker image is based on  `ghcr.io/otischung/pros_ai_image:1.3.6`
 To set up the camera bridge, run the following script:
 
 ```
-./ros_camera_bridge_setup.sh
+./ros_camera_dabai_setup
 ```
 
 You can use the Docker network `scripts_my_bridge_network` to retrieve camera information.
+
+To use the ROS bridge, run the following script:
+```
+./ros_bridge_setup
+```

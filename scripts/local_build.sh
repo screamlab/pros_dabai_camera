@@ -1,6 +1,6 @@
 export IMG_NAME="pros_dabai_dcw"
 export ECR_URL="kyehuang"
-export TAG="0.0.1"
+export TAG="0.0.2"
 export DOCKER_CLI_EXPERIMENTAL=enabled
 
 docker run --rm --privileged tonistiigi/binfmt:latest

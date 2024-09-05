@@ -23,6 +23,6 @@ fi
 docker run -it --rm \
     --device /dev/bus/usb:/dev/bus/usb \
     --network scripts_my_bridge_network \
-    $device_options -p 9090:9090 \
-    your_image_name:latest \
+    $device_options\
+    kyehuang/pros_dabai_dcw:0.0.2 \
     /bin/bash -c "source /opt/ros/humble/setup.bash && ros2 launch orbbec_camera dabai_dcw.launch.py & wait" 
